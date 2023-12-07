@@ -1,5 +1,7 @@
 require('dotenv').config();
 
+alert("ola")
+
 const clientId = 'mqttjs_' + Math.random().toString(16).substr(2, 8)
 const host = 'wss://mqtt.ect.ufrn.br:8083/mqtt'
 const publishTopic = 'URA100/input'
